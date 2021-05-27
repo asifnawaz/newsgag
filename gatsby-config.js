@@ -26,9 +26,9 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         schema: {
-       perPage: 20, // currently set to 100
-       requestConcurrency: 5, // currently set to 15
-       previewRequestConcurrency: 2, // currently set to 5
+       perPage: 10, // currently set to 100
+       requestConcurrency: 3, // currently set to 15
+       previewRequestConcurrency: 0, // currently set to 5
         },
         // the only required plugin option for WordPress is the GraphQL url.
         url:
